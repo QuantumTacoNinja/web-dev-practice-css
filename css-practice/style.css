@@ -1,0 +1,608 @@
+* {
+    /* outline: 1px solid #000; */
+
+    font-family: "Inter";
+    font-size: 0.99em;
+}
+
+/* Header ------------------------------------------------------------- */
+
+header {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+
+    padding-left: 20%;
+    padding-right: 20%;
+
+    top: 0px;
+    left: 0px;
+
+    background-color: #fff;
+    z-index: 2;
+
+}
+
+
+header ul {
+    
+    margin-top: 24px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+header a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#exotic-nav {
+    position: fixed;
+    right: 32px;
+    padding: 8px;
+    margin-bottom: 32px;
+    background-color: #f05219;
+    border-radius: 8px;
+    display: flex;
+}
+
+#exotic-nav a {
+    color: #fff;
+}
+
+/* Main ------------------------------------------------------------- */
+
+main {
+    width: 100%;
+    padding-top: 80px;
+
+    top: 0px;
+    left: 0px;
+}
+
+main section {
+    width: 100%;
+    height: auto;
+    padding: 64px 128px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+
+    top:0 ;
+    left:0 ;
+}
+
+main h2 {
+    color: #f05219;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+main h3 {
+    font-size: 3em ;
+    text-transform: uppercase;
+}
+
+main p {
+    font-size: 1em;
+}
+
+main a {
+    font-size: 1em;
+    color: #000;
+    text-decoration: none;
+}
+
+.div-column {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+
+    gap: 24px;
+}
+
+.div-row {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* ABOUT ME ------------------------------------------------------------- */
+
+#about-me {
+    color: #fff;
+
+    text-shadow: 2px 2px 2px #000;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    padding-bottom: 11%;
+
+    width: 100%;
+    height: 816px;
+    background-image: url(./images/Landing\ Cover.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+#about-me h1 {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+#p1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#p2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#about-me a {
+    color: #fff;
+    width: 20%;
+
+    text-shadow: none;
+
+    font-weight: bolder;
+
+    padding: 8px;
+    border-radius: 8px;
+
+    background-color: #f05219;
+}
+
+#custom1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+/* SKILL ------------------------------------------------------------- */
+
+.skill-container {
+    width: auto;
+    height: auto;
+    padding: 16px;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: row;
+
+    gap: 8px;
+
+    color: #fff;
+
+    background-color: #000;
+}
+
+.skill-container img {
+    height: 120px;
+    width: auto;
+    aspect-ratio: 1 / 1;
+    border-radius: 8px;
+
+    background-color: #fff;
+}
+
+.content {
+    height: 100%;
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+    gap: 0px;
+}
+
+#skill-pic {
+    width: 50%;
+    max-height: 704px;
+
+    object-fit: cover;
+    object-position: 100% 50%;
+    border-radius: 8px;
+}
+
+/* Research ------------------------------------------------------------- */
+#research-img {
+    width: 75%;
+}
+
+#sec-research {
+    background-color: #000;
+}
+
+#sec-research h3, 
+#sec-research p{
+    color: #fff;
+}
+
+#sec-research a {
+    width: 11.75em;
+    padding: 4px;
+    border-radius: 8px;
+    color: #f05219;
+    outline: 1px solid #f05219;
+}
+
+
+/* Experience ------------------------------------------------------------- */
+#experience-img {
+    width: 75%;
+}
+
+#sky-icon {
+    width: 80px;
+}
+
+#sec-experience a{
+    width: 11.5em;
+    padding: 4px;
+    border-radius: 8px;
+    color: #f05219;
+    outline: 1px solid #f05219;
+}
+/* Education ------------------------------------------------------------- */
+#sec-education {
+    padding: 0px;
+    margin: 0px;
+
+    color: #fff;
+    background-color: #000;
+
+}
+
+#sec-education h2 {
+    font-size: 6em;
+    font-weight: bold;
+}
+
+#sec-education h3 {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+
+#sec-education p {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#sec-education a {
+    font-size: 1em;
+    font-weight: bold;
+
+    color: #fff;
+    background-color: #f05219;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+#education-title {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#education {
+    color: #fff;
+}
+
+#HSUTCC {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 25%;
+
+    background: url(./images/hs.png);
+    background-size: cover;
+
+    gap: 32px
+}
+
+#KVIS {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+
+    text-align: right;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-right: 10%;
+    padding-top: 10%;
+
+    background: url(./images/kvis.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    gap: 32px;
+    }
+
+#KVIS h3 {
+    width: 50%;
+}
+
+/* Award ------------------------------------------------------------- */
+
+#award-structure {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 8px;
+
+    gap: 32px;
+    column-gap: 32px;
+
+}
+
+#awards {
+    text-align: center;
+    font-size: 4em;
+    color: #000;
+}
+
+#award-structure h3 {
+    text-align: center;
+    font-size: 2em;
+}
+
+#award-structure p {
+    text-align: justify;
+    padding: 8px;
+}
+
+.award-large {
+    box-sizing: content-box;
+    width: 46%;
+    height: 448px;
+    border-radius: 8px;
+
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+
+    outline: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.award-small {
+    box-sizing: content-box;
+    width: 30%;
+    height: 448px;
+    border-radius: 16px;
+
+    background-color: #fff;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+
+    outline: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Contact Me ------------------------------------------------------------- */
+
+#sec-contact-me {
+    height: 816px;
+
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+
+    /* ???? How to blur bg */    
+    background-image: url(./images/footer-profile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#sec-contact-me * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-shadow: 1px 1px #000;
+
+    color: #fff;
+}
+
+#contact-me {
+    font-size: 3em;
+}
+  
+#sec-contact-me form {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+#sec-contact-me label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    
+  }
+  
+#sec-contact-me input, #sec-contact-me textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  
+#sec-contact-me textarea {
+    resize: vertical;
+  }
+  
+#sec-contact-me button {
+    padding: 10px 15px;
+    background-color: #f05219;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+#sec-contact-me #name, #sec-contact-me #surname {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+#sec-contact-me #surname {
+    margin-right: 0;
+  }
+  
+#sec-contact-me #email, #sec-contact-me #tel {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+#tel {
+    margin-right: 0;
+  }
+
+
+.twin-inputs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+}
+
+.wrapper {
+    width: 48.5%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.wrapper input {
+    width: 100%;
+}
+
+
+/* Footer ------------------------------------------------------------- */
+
+footer {
+    background-color: #131b23;
+    color: #fff;
+    padding: 56px 144px;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer-profile {
+    margin: 0px;
+    padding: 0px;
+
+    width: 40%;
+    height: min-content;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+#footer-profile img {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+}
+
+#footer-detail {
+    gap: 16px;
+    top: 0px;
+}
+
+#p11 {
+    font-size: 2em;
+}
+#p21 {
+    font-size: 1em;
+    
+}
+
+
+#footer-contact {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 64px;
+    align-items: center;
+}
+
+#fcli {
+    margin-top: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.inst {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/* Other ------------------------------------------------------------- */
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
